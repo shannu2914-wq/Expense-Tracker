@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", sans-serif;
+   
+}
+
+.header {
+    background-color: #476ef7;
+    color: #fff;
+    padding-left: 25px;
+    font-size: large;
+    
+
+}
+
+.input-form {
+    display: flex;
+    border: 1px black solid;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476EF7;
+    margin-top: 15px;
+    padding: 25px 0;
+}
+
+
+#add-button {
+    background-color: #476ef7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.form-floating,
+.inputs {
+    width: 30% !important;
+}
+
+.cards {
+    border: 1px solid black;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.card-body {
+    background-color: #476EF7;
+    border: 0;
+    color: #fff !important;
+    height: 150px;
+    width: 18rem;
+
+}
+
+.transaction-table {
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    padding: 0px;
+}
+
+#header-row {
+    background-color: #476EF7;
+}
+
+#header-row th {
+    padding: 15px 10px;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: red !important;
+    border: none !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        background-color: black;
+          position: relative;
+    
+    }
+
+    .input-form {
+        flex-direction: column;
+        gap: 15px;
+         box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    }
+
+    .form-floating,
+    .inputs {
+        width: 75% !important;
+        
+    }
+
+    #add-button {
+        background-color: black;
+        width: 75%;
+        border-radius: 8px;
+ 
+    }
+    .cards {
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+    .card-body{
+        width: 180px ;
+    background-color:black;
+    border: 0;
+    color: #fff !important;
+    height: 150px;
+       
+    }
+    #header-row {
+    background-color: black;
+}
+
+
+}
